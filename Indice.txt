@@ -1,0 +1,57 @@
+==============================================
+                I N D I C E
+==============================================
+0. Tesi
+0.1 Tesi in formato ODT
+0.2 Tesi in formato PDF
+
+==============================================
+
+1. Survey
+1.1 Risposte 
+1.1.1 Foglio di calcolo (ODS / XLS)
+1.1.2 Grafici torta (ODT)
+1.2 Sorgente Lime Survey
+
+==============================================
+
+2. Principali software LAIB Politecnico
+2.1 Analisi SW Proprietario Libero / Open Source(ODS)
+2.2 Analisi SW Proprietario Libero / Open Source (XLS)
+
+
+==============================================
+
+3. Scraping
+3.1 Codice
+
+==============================================
+
+4. Materiale vario
+4.1 Valutazione comparativa "circolare_agid_63-2013_linee_guida_art_68_del_cad_ver_13_b"
+4.2 “Software a scuola: quale scegliere?” 
+del software un possibile approccio 
+
+==============================================
+
+5. Presentazione ODP
+Presentazione in Bozza
+
+==============================================
+
+NUMERO DEL PROJECT WORKS: 7
+TITOLO DEL PROJECT WORKS
+
+==============================================
+GRUPPO DI LAVORO / AUTORI
+
+ MARCO BRANDOLINI, Regione Piemonte
+ FRANCESCO FIERMONTE, Politecnico di Torino
+ ROCCO PISPICO, Arpa Piemonte
+
+==============================================
+PER LA TESI EE LE ELABORAZIONI PRODOTTE, IL
+MATERIALE COPERTO DA LICENZA CREATIVE COMMONS,
+ATTRIBUZIONE, CC-BY 4.0 INTERNAZIONALE
+==============================================
+

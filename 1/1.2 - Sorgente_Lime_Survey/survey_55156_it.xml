@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="55156">
+  <title>SONDAGGIO SUL SOFTWARE LIBERO, DATI E FORMATI APERTI V.3</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>&lt;p style="text-align: center;"&gt;&#13;
+	&lt;em&gt;Ti ringraziamo anticipatamente per la Tua Collaborazione&lt;/em&gt;&lt;/p&gt;&#13;
+&lt;p style="text-align: center;"&gt;&#13;
+	 &lt;/p&gt;</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>after</position>
+    <text>&lt;p style="text-align: center;"&gt;&#13;
+	&lt;em&gt;Grazie per averci dedicato il Tuo tempo!&lt;/em&gt;&lt;/p&gt;&#13;
+
+&#13;
+&lt;p style="text-align: center;"&gt;&#13;
+	 &lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	 &lt;/p&gt;&#13;
+&lt;p style="text-align: center;"&gt;&#13;
+	 &lt;/p&gt;</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="426">
+    <sectionInfo>
+      <position>title</position>
+      <text>ANAGRAFICA</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Tipo di azienda / ente di appartenenza</text>
+      <response varName="55156X426X7170">
+        <fixed>
+          <category>
+            <label>Consorzio</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>Ente pubblico</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Libero professionista</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Privata</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Università / Scuola</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Altro</label>
+            <value>-oth</value>
+            <contingentQuestion varName="55156X426X7170other">
+              <text>Altro</text>
+              <length>24</length>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Numero di dipendenti</text>
+      <response varName="55156X426X7171">
+        <fixed>
+          <category>
+            <label>Inferiore a 10</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Compresi tra 11 e 50</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Compresi tra 51 e 100</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Compresi tra 101 e 500</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Compresi tra 501 e 1000</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>Oltre 1000</label>
+            <value>A6</value>
+          </category>
+          <category>
+            <label>Non so / Non voglio rispondere</label>
+            <value>A7</value>
+          </category>
+          <category>
+            <label>Altro</label>
+            <value>-oth</value>
+            <contingentQuestion varName="55156X426X7171other">
+              <text>Altro</text>
+              <length>24</length>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Area di lavoro prevalente</text>
+      <directive>
+        <position>during</position>
+        <text>Indicare in quale area si opera</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X426X7172">
+        <fixed>
+          <category>
+            <label>Amministrativa</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Information and Communication Technologies (ICT)</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Commerciale</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Educazione</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Ricerca</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>Studente</label>
+            <value>A7</value>
+          </category>
+          <category>
+            <label>Tecnica</label>
+            <value>A6</value>
+          </category>
+          <category>
+            <label>Altro</label>
+            <value>-oth</value>
+            <contingentQuestion varName="55156X426X7172other">
+              <text>Altro</text>
+              <length>24</length>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="427">
+    <sectionInfo>
+      <position>title</position>
+      <text>OPEN DATA</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Per saperne di più sui Dati aperti clicca qui (verrà aperta una nuova finestra)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>E' a conoscenza dell'esistenza di dati ("open data") e formato dati ("open format") aperti? *</text>
+      <subQuestion varName="55156X427X7173SQ001">
+        <text>Open data</text>
+      </subQuestion>
+      <subQuestion varName="55156X427X7173SQ002">
+        <text>Open format</text>
+      </subQuestion>
+      <response varName="55156X427X7173">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Non so</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>La sua struttura utilizza e/o pubblica (rilascia) "open data"?</text>
+      <subQuestion varName="55156X427X7174SQ001">
+        <text>Utilizza</text>
+      </subQuestion>
+      <subQuestion varName="55156X427X7174SQ002">
+        <text>Pubblica / Rilascia</text>
+      </subQuestion>
+      <response varName="55156X427X7174">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Non so</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="428">
+    <sectionInfo>
+      <position>title</position>
+      <text>DATI E FORMATI "APERTI"</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Per saperne di più sugli Open format clicca qui (verrà aperta una nuona finestra)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>La sua struttura utilizza e/o propone formati aperti?</text>
+      <subQuestion varName="55156X428X7175SQ001">
+        <text>Utilizza</text>
+      </subQuestion>
+      <subQuestion varName="55156X428X7175SQ002">
+        <text>Propone</text>
+      </subQuestion>
+      <response varName="55156X428X7175">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Non so</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="429">
+    <sectionInfo>
+      <position>title</position>
+      <text>FORMATO DATI</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Durante le attività professionali quale di questi formato dati utilizza?</text>
+      <subQuestion varName="55156X429X7176SQ001">
+        <text>Open data format (Libre Office, Open Office...)</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7176SQ002">
+        <text>CSV</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7176SQ006">
+        <text>Dati geografici (shapefile, Spatialite...)</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7176SQ003">
+        <text>TXT</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7176SQ004">
+        <text>XML</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7176SQ005">
+        <text>ALTRO</text>
+      </subQuestion>
+      <response varName="55156X429X7176">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Non so</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Se ha selezionato "Altro" nel frame "ATTIVITA' PROFESSIONALI", si prega di specificare</text>
+      <response varName="55156X429X7188">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label></label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Nel tempo libero quale di questi formato dati utilizza?</text>
+      <subQuestion varName="55156X429X7177SQ001">
+        <text>Open data format (Libre Office, Open Office...)</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7177SQ002">
+        <text>CSV</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7177SQ006">
+        <text>Dati geografici  (shapefile, Spatialite...)</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7177SQ003">
+        <text>TXT</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7177SQ004">
+        <text>XML</text>
+      </subQuestion>
+      <subQuestion varName="55156X429X7177SQ005">
+        <text>ALTRO</text>
+      </subQuestion>
+      <response varName="55156X429X7177">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Non so</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Se ha selezionato "Altro" nel frame "TEMPO LIBERO", si prega di specificare</text>
+      <response varName="55156X429X7189">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label></label>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="430">
+    <sectionInfo>
+      <position>title</position>
+      <text>SOFTWARE e LICENZE LIBERE</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>E' a conoscenza dell'esistenza di software liberi e/o open source?</text>
+      <directive>
+        <position>during</position>
+        <text>Per saperne di più sul Free Software clicca qui (verrà aperta una nuova finestra)</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X430X7178">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>E' a conoscenza dell'esistenza di licenze libere, come ad es. "Creative Commons" (CC), GNU Public License (GPL)....?</text>
+      <directive>
+        <position>during</position>
+        <text>Per saperne di più sulle licenze Creative Commons clicca qui (verrà aperta una nuova finestra)
+&lt;p&gt;
+	Per saperne di più sulla licenza GNU General Public License clicca qui (verrà aperta una nuova finestra)&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X430X7179">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="431">
+    <sectionInfo>
+      <position>title</position>
+      <text>PROGETTI IN CORSO</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>E' a conoscenza di progetti / iniziative di passaggio a software libero (free software) e/o open source presso la sua struttura</text>
+      <subQuestion varName="55156X431X7180SQ001">
+        <text>Conosco</text>
+      </subQuestion>
+      <response varName="55156X431X7180">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>Non so</label>
+            <value>U</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Può fare una stima della percentuale di postazioni che utilizzano Software Libero (free software) e/o Open Source</text>
+      <directive>
+        <position>during</position>
+        <text>La domanda riguarda QUALSIASI tipo di Software Libero (free software) e/o Open Source installato anche a prescidere dal sistema operativo che può anche essere di tipo proprietario</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X431X7181">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label></label>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="432">
+    <sectionInfo>
+      <position>title</position>
+      <text>AMBITO DI APPLICAZIONE E/O DI UTILIZZO DEL SOFTWARE</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;
+	Quali sono gli ambiti di applicazione di maggiore interesse e/o di utilizzo?&lt;/p&gt;
+&lt;p&gt;
+	(sono possibili più risposte)&lt;/p&gt;</text>
+      <response varName="55156X432X7182SQ018">
+        <fixed>
+          <category>
+            <label>Audio / Video / multimedialità</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ015">
+        <fixed>
+          <category>
+            <label>Building Information Modeling (BIM)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ001">
+        <fixed>
+          <category>
+            <label>Computer-Aided Design (CAD)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ016">
+        <fixed>
+          <category>
+            <label>Computer-Aided Energy Management (CAEM)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ013">
+        <fixed>
+          <category>
+            <label>Computer-Aided Engineering (CAE)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ010">
+        <fixed>
+          <category>
+            <label>CMS (Content Management System)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ002">
+        <fixed>
+          <category>
+            <label>Database (DB, RDBMS...)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ003">
+        <fixed>
+          <category>
+            <label>Data Mining</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ004">
+        <fixed>
+          <category>
+            <label>Geographic Information System (G.I.S.)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ012">
+        <fixed>
+          <category>
+            <label>Grafica vettoriale</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ017">
+        <fixed>
+          <category>
+            <label>Information and Communications Technologies (ICT)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ005">
+        <fixed>
+          <category>
+            <label>Linguaggi di programmazione (ambienti di sviluppo / IDE...)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ006">
+        <fixed>
+          <category>
+            <label>Posta elettronica</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ007">
+        <fixed>
+          <category>
+            <label>Produttività individuale (Office Automation)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ011">
+        <fixed>
+          <category>
+            <label>Rendering, Modellazione 3D</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ008">
+        <fixed>
+          <category>
+            <label>Sistema operativo (Client/Server)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ014">
+        <fixed>
+          <category>
+            <label>Transport Simulation Systems (TSS)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182SQ009">
+        <fixed>
+          <category>
+            <label>Trattamento delle Immagini</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="55156X432X7182T">
+        <fixed>
+          <category>
+            <label>Altro</label>
+            <value>1</value>
+            <contingentQuestion varName="55156X432X7182other">
+              <text>Altro</text>
+              <length>24</length>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="433">
+    <sectionInfo>
+      <position>title</position>
+      <text>STRUMENTI LIBERI E/O OPEN SOURCE CONOSCIUTI e/o UTILIZZATI</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Quali strumenti utilizza con maggiore frequenza?</text>
+      <subQuestion varName="55156X433X7183SQ001">
+        <text>Libre Office</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ002">
+        <text>Open Office</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ003">
+        <text>Posta elettronica</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ004">
+        <text>Gimp</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ005">
+        <text>Inkscape</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ006">
+        <text>Scribus</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ007">
+        <text>QGIS</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ008">
+        <text>GRASS GIS</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ009">
+        <text>Altri GIS</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ010">
+        <text>Linux (qualsiasi distribuzione)</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ011">
+        <text>Linux Server (qualsiasi distribuzione)</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ012">
+        <text>PostgreSQL</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ013">
+        <text>MySQL</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ014">
+        <text>CMS</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ015">
+        <text>Linguaggi di programmazione / ambienti di sviluppo / IDE...</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ017">
+        <text>CAD / CAE / BIM</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ018">
+        <text>Rendering / Modellazione 3D</text>
+      </subQuestion>
+      <subQuestion varName="55156X433X7183SQ019">
+        <text>ALTRO</text>
+      </subQuestion>
+      <response varName="55156X433X7183">
+        <fixed>
+          <category>
+            <label>Utilizzo professionale</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Utilizzo personale</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Conosce / Ne ha sentito parlare / Ne ha letto</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Non lo utilizzo</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Se ha selezionato la voce "ALTRO" si prega di specificare</text>
+      <response varName="55156X433X7190">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label></label>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="434">
+    <sectionInfo>
+      <position>title</position>
+      <text>SOFTWARE PROPRIETARIO</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Per la sua attività professionale, ha acquistato (o chiesto di far acquistare) software proprietario negli ultimi 24 mesi?</text>
+      <directive>
+        <position>during</position>
+        <text></text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X434X7184">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>E' a conoscenza dell'esistenza di un "Codice dell'Amministrazione Digitale" (CAD)?</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p style="text-align: justify;"&gt;
+	SCHEMA DI DECRETO LEGISLATIVO RECANTE MODIFICHE E INTEGRAZIONI AL CODICE DELL'AMMINISTRAZIONE DIGITALE DI CUI AL DECRETO LEGISLATIVO 7 MARZO 2005, N. 82, AI SENSI DELL'ARTICOLO 1 DELLA LEGGE 7 AGOSTO 2015, N. 124, IN MATERIA DI RIORGANIZZAZIONE DELLE AMMINISTRAZIONI PUBBLICHE.&lt;/p&gt;
+&lt;p&gt;
+	Visualizza il CAD (verrà aperta una nuova finestra)&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X434X7185">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Ha mai effettuato una "valutazione comparativa" (relativa alla riusabilità del software) come richiesto dalla normativa AGID?</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;
+	Circolare 6 dicembre 2013 n.63 - Linee guida per la valutazione comparativa prevista dall’art. 68 del D.Lgs.7 marzo 2005 , n. 82 “Codice dell’Amministrazione digitale”&lt;/p&gt;
+&lt;p&gt;
+	Valutazione Comparativa AGID (verrà aperta una nuova finestra)</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="55156X434X7186">
+        <fixed>
+          <category>
+            <label>Sì</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="435">
+    <sectionInfo>
+      <position>title</position>
+      <text>MOTIVAZIONI SULL'USO DI SOFTWARE LIBERO E/O OPEN SOURCE</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text> &#13;
+	&#13;
+&#13;
+&lt;p&gt;&#13;
+	 &lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <subQuestion varName="55156X435X7187SQ006">
+        <text>Il software Libero e/o Open Source garantisce prestazioni migliori rispetto al software proprietario</text>
+      </subQuestion>
+      <subQuestion varName="55156X435X7187SQ007">
+        <text>Il software Libero e/o Open Source garantisce costi minori</text>
+      </subQuestion>
+      <subQuestion varName="55156X435X7187SQ008">
+        <text>L'utilizzo di software Libero e/o Open Source è suggerito, ove possibile, dal CAD (Codice di Amministrazione Digitale)</text>
+      </subQuestion>
+      <subQuestion varName="55156X435X7187SQ009">
+        <text>Per ragioni etiche è più corretto che la Pubblica Amministrazione investa soldi pubblici per sostenere soluzioni Libere e/o Open Source</text>
+      </subQuestion>
+      <subQuestion varName="55156X435X7187SQ010">
+        <text>Il software Libero e/o Open Source garantisce maggiori garanzie sulla continuità del servizio, non essendo legato ad una singola azienda</text>
+      </subQuestion>
+      <response varName="55156X435X7187">
+        <fixed>
+          <category>
+            <label>Per nulla rilevante</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Poco rilevante</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Mediamente rilevante</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Molto rilevante</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+</questionnaire>
